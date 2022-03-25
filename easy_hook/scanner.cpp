@@ -126,7 +126,7 @@ bool init_console() { //ugly peace of shit
 	if (!console_handle || !console_window)
 		return false;
 	freopen_s(reinterpret_cast<FILE**>(stdout), "CONOUT$", "w", stdout);
-	SetConsoleTitleW(L"sex-force");
+	SetConsoleTitleW(L"made by sex-force");
 	SetConsoleCP(CP_UTF8);
 	SetConsoleOutputCP(CP_UTF8);
 	//size of the console
