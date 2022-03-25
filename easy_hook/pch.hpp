@@ -37,7 +37,6 @@ if (MH_CreateHook(target, hk, (void**)&og) != MH_OK) \
 else \
    std::cout << "hooked " << name << std::endl; \
 /*
-x-man: pattern scanner
 senpai ari: easy-hook
 senpai ari: fuck rid crashes lil rice boy
 senpai ari: yes im the one who made this
