@@ -1,4 +1,4 @@
 # sex-protex
-blocks any voice session invites
+blocks all voice session invites
 # why exactly?
 nightfall can go eat shit
