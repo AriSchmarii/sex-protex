@@ -1,5 +1,4 @@
 #include "pch.hpp"
-//credits to x-man for this sexy pattern scanner <3
 ptr_manage::ptr_manage(void* hand) { 
 	m_ptr = hand; 
 }
