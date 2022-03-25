@@ -1,7 +1,5 @@
 #pragma once
 #include "pch.hpp"
-//credits to x-man for the sexy pattern scanner <3
-//ps. i did some small changes
 
 class ptr_manage {
 public:
