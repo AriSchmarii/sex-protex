@@ -6,7 +6,7 @@ using CVoiceSessionInviteHandler = bool(*)(__int64 a1);
 CVoiceSessionInviteHandler vsi_handler{};
 
 bool (*ogVoiceSessionInviteHandler)(__int64 a1) = { nullptr };
-bool hkVoiceSessionInviteHandler(__int64 a1) { //5th index in the vtable of the CVoiceSessionInviteHandler sex sex
+bool hkVoiceSessionInviteHandler(__int64 a1) { //5th index in the vtable of CVoiceSessionInvite sex sex
 	std::cout << "vsi blocked" << std::endl;
 	return FALSE;
 }
