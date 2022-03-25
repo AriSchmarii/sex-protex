@@ -117,7 +117,7 @@ void pattern_batch::run() {
 	pattern_list.clear();
 }
 
-bool init_console() { //ugly peace of shit
+bool init_console() { //ugly piece of shit
 	if (!AllocConsole())
 		return false;
 	const HANDLE console_handle = GetStdHandle(STD_OUTPUT_HANDLE);
